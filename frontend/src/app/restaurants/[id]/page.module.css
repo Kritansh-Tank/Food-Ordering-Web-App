@@ -1,0 +1,135 @@
+.backBtn {
+    display: inline-flex;
+    align-items: center;
+    padding: 8px 0;
+    background: none;
+    border: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--accent);
+    cursor: pointer;
+    margin-bottom: 16px;
+    transition: color 0.2s;
+}
+
+.backBtn:hover {
+    color: var(--accent-dark);
+}
+
+.restaurantHeader {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: 28px;
+    border: 1px solid var(--border-light);
+    box-shadow: var(--shadow-sm);
+    margin-bottom: 32px;
+    animation: fadeIn 0.4s ease;
+}
+
+.restaurantHeader h1 {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.headerMeta {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 14px;
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+}
+
+.cuisineTag {
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.desc {
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.categorySection {
+    margin-bottom: 32px;
+    animation: fadeIn 0.4s ease;
+}
+
+.categoryTitle {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid var(--border-light);
+}
+
+.menuGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menuCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 20px;
+    gap: 16px;
+}
+
+.menuInfo {
+    flex: 1;
+}
+
+.menuNameRow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.menuNameRow h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.vegBadge {
+    font-size: 11px;
+    font-weight: 600;
+    color: #16a34a;
+}
+
+.menuDesc {
+    font-size: 13px;
+    color: var(--text-secondary);
+    margin-bottom: 6px;
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.menuAction {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.cartQty {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    background: var(--accent-bg);
+    padding: 3px 8px;
+    border-radius: 12px;
+}
+
+.added {
+    background: var(--success) !important;
+    box-shadow: 0 2px 8px rgba(16, 185, 129, 0.35) !important;
+}

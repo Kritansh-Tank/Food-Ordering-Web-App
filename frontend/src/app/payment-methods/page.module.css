@@ -1,0 +1,49 @@
+.infoBox {
+    background: var(--accent-bg);
+    border: 1px solid #c7d2fe;
+    border-radius: var(--radius-md);
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    font-size: 13px;
+    color: var(--text-secondary);
+    line-height: 1.6;
+}
+
+.methodsList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.methodCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 22px;
+}
+
+.methodInfo {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.methodIcon {
+    font-size: 28px;
+}
+
+.methodInfo h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.defaultBadge {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--success);
+}
+
+.methodActions {
+    display: flex;
+    gap: 8px;
+}

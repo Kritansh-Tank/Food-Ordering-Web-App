@@ -1,0 +1,130 @@
+.cartLayout {
+    display: grid;
+    grid-template-columns: 1fr 360px;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.cartItems {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cartItem {
+    display: flex;
+    align-items: center;
+    padding: 16px 20px;
+    gap: 20px;
+}
+
+.itemInfo {
+    flex: 1;
+}
+
+.itemInfo h3 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.itemPrice {
+    font-size: 13px;
+    color: var(--text-muted);
+}
+
+.qtyControls {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.qtyBtn {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1.5px solid var(--border);
+    background: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s;
+    font-family: 'Inter', sans-serif;
+}
+
+.qtyBtn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: var(--accent-bg);
+}
+
+.qty {
+    font-size: 16px;
+    font-weight: 700;
+    min-width: 24px;
+    text-align: center;
+}
+
+.itemTotal {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--text-primary);
+    min-width: 80px;
+    text-align: right;
+}
+
+.cartSummary {
+    position: sticky;
+    top: 88px;
+}
+
+.summaryCard {
+    padding: 24px;
+}
+
+.summaryCard h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.summaryRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+    border-bottom: 1px solid var(--border-light);
+}
+
+.totalRow {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+    border-bottom: none;
+    padding-top: 14px;
+}
+
+.free {
+    color: var(--success);
+    font-weight: 600;
+}
+
+.memberNote {
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--text-muted);
+    background: var(--warning-bg);
+    padding: 10px 12px;
+    border-radius: var(--radius-sm);
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .cartLayout {
+        grid-template-columns: 1fr;
+    }
+}

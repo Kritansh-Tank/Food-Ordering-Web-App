@@ -1,0 +1,111 @@
+.checkoutLayout {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.paymentForm {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.orderSummary {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+.orderSummary h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.restaurantName {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.summaryItem {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 0;
+    font-size: 14px;
+    color: var(--text-secondary);
+}
+
+.summaryTotal {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    margin-top: 10px;
+    border-top: 2px solid var(--border);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary);
+}
+
+.stripeSection {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+.stripeSection h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.payBtn {
+    width: 100%;
+    justify-content: center;
+    padding: 14px 24px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.payBtn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.errorBox {
+    background: var(--danger-bg);
+    color: var(--danger);
+    border: 1px solid #fecaca;
+    border-radius: var(--radius-md);
+    padding: 14px 18px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.successContainer {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.successIcon {
+    font-size: 64px;
+    margin-bottom: 20px;
+}
+
+.successContainer h1 {
+    font-size: 28px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.successContainer p {
+    color: var(--text-secondary);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
