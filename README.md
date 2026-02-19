@@ -67,6 +67,13 @@ STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable
 JWT_SECRET=your-random-secret-string
 ```
 
+Create a `.env.local` file in the `frontend/` directory:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:3001
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=pk_test_your_stripe_publishable
+```
+
 ### 3. Set up Database
 
 1. Go to your Supabase dashboard → SQL Editor
