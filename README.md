@@ -140,3 +140,21 @@ See `api_collection.json` for detailed endpoint documentation.
 | DELETE | `/payments/methods/:id` | JWT | Admin |
 | PUT | `/payments/methods/:id/default` | JWT | Admin |
 | POST | `/payments/create-payment-intent` | JWT | Admin, Manager |
+
+## User Interface
+- 🍕 FoodOrder
+  
+  ![FoodOrder](assets/FoodOrder.png)
+  
+- 🏠 Dashboard
+
+  ![Dashboard](assets/Dashboard.png)
+  
+- 🍽️ Restaurants
+
+  ![Restaurants](assets/Restaurants.png)
+  
+## License
+
+MIT License - See LICENSE file for details
+
