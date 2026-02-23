@@ -157,4 +157,3 @@ See `api_collection.json` for detailed endpoint documentation.
 ## License
 
 MIT License - See LICENSE file for details
-
